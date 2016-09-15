@@ -58,6 +58,12 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="B51-yM-E3v">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NdD-7t-XVi"/>
+                                    <constraint firstAttribute="width" constant="60" id="jXE-2g-1Tf"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -65,12 +71,14 @@
                             <constraint firstItem="YVH-RX-LlW" firstAttribute="top" secondItem="PFB-EE-fEv" secondAttribute="bottom" constant="8" id="AXc-At-DiD"/>
                             <constraint firstItem="YVH-RX-LlW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BTc-3b-KYE"/>
                             <constraint firstAttribute="trailing" secondItem="0dq-vI-iTe" secondAttribute="trailing" constant="20" id="KGD-CH-jLm"/>
+                            <constraint firstItem="B51-yM-E3v" firstAttribute="centerY" secondItem="PFB-EE-fEv" secondAttribute="centerY" id="MDd-Ox-D8A"/>
                             <constraint firstItem="oMr-kg-9IK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Szr-Xy-2uK"/>
+                            <constraint firstItem="B51-yM-E3v" firstAttribute="centerX" secondItem="PFB-EE-fEv" secondAttribute="centerX" id="by0-rG-yMQ"/>
                             <constraint firstItem="PFB-EE-fEv" firstAttribute="top" secondItem="0dq-vI-iTe" secondAttribute="bottom" constant="20" id="g0v-MC-ffr"/>
                             <constraint firstItem="PFB-EE-fEv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxv-cc-G6f"/>
                             <constraint firstItem="0dq-vI-iTe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="v44-rd-Ea4"/>
                             <constraint firstItem="oMr-kg-9IK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wRJ-Nv-tvP"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YVH-RX-LlW" secondAttribute="bottom" constant="8" id="wvV-MP-TQn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YVH-RX-LlW" secondAttribute="bottom" constant="12" id="wvV-MP-TQn"/>
                             <constraint firstItem="0dq-vI-iTe" firstAttribute="top" secondItem="oMr-kg-9IK" secondAttribute="bottom" constant="20" id="xC7-Eo-pbJ"/>
                         </constraints>
                     </view>
