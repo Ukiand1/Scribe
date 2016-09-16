@@ -13,6 +13,7 @@
 		07C2AB6E1D8A948B00E06886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2AB6C1D8A948B00E06886 /* Main.storyboard */; };
 		07C2AB701D8A948B00E06886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C2AB6F1D8A948B00E06886 /* Assets.xcassets */; };
 		07C2AB731D8A948B00E06886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2AB711D8A948B00E06886 /* LaunchScreen.storyboard */; };
+		07EC510E1D8AA8D0007E1811 /* Tibet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07EC510D1D8AA8D0007E1811 /* Tibet.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		07C2AB6F1D8A948B00E06886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C2AB721D8A948B00E06886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C2AB741D8A948B00E06886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EC510D1D8AA8D0007E1811 /* Tibet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tibet.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		07C2AB671D8A948B00E06886 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				07EC510F1D8AA8D4007E1811 /* Resources */,
 				076B66F41D8A99B400E23939 /* Model */,
 				076B66F51D8A99B900E23939 /* View */,
 				076B66F61D8A99BC00E23939 /* Controller */,
@@ -89,6 +92,14 @@
 				07C2AB741D8A948B00E06886 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		07EC510F1D8AA8D4007E1811 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07EC510D1D8AA8D0007E1811 /* Tibet.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EC510E1D8AA8D0007E1811 /* Tibet.mp3 in Resources */,
 				07C2AB731D8A948B00E06886 /* LaunchScreen.storyboard in Resources */,
 				07C2AB701D8A948B00E06886 /* Assets.xcassets in Resources */,
 				07C2AB6E1D8A948B00E06886 /* Main.storyboard in Resources */,
